@@ -1,0 +1,36 @@
+
+body{
+	background-color: #ebead8;
+}
+.a1{
+	border-top: 6px groove blue;
+	background-color: white;
+	height: 180px;
+	width: 40%;
+	margin-top: 150px;
+	margin-left: 370px;
+	box-shadow: 5px 5px 20px black;
+}
+h3{
+	padding-left: 30px;
+	font-size: x-large;
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+h5{
+	padding-left: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+h6{
+	padding-left: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+a {
+	padding-left: 30px;
+	color: blue;
+}
+.a2{
+	padding-bottom: 0px;
+}

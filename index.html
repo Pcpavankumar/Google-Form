@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<title>Registration page</title>
+<link rel="stylesheet" href="index.css">
+ 
+</head>
+<body>
+<div class="id1" >
+	<h1>FUTURE OPPORTUNITIES</h1>
+	
+	<h3>This is google form using HTML and CSS.</h3>
+	
+	<h5>*Required</h5>
+</div>
+<br>
+	<div>
+	<form action="new.html" target="_blank" >
+		<div class="i1">
+			<label class="j1" for="fname">Enter Your First Name<span style="color: red;">*</span>
+			</label>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="i2">
+			<input class="j2" type="text" id="fname" required pattern="[A-Z a-z]{3,15}" placeholder="First Name" name="firstname">
+			</div>
+		</div>
+		<br>
+		<div class="i1">
+			<label class="j1" for="lname">Enter Your Last Name<span style="color: red;">*</span></label>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div  class="i2">
+			<input class="j2" type="text" id="lname" required pattern="[A-Z a-z]{3,15}" placeholder="Last Name" name="lastname">
+			</div>
+		</div>
+		<br>
+		<div class="i1">
+			<label class="j1" for="dob">Enter Your Date of Birth<span style="color: red;">*</span></label>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="i2">
+			<input class="j2" type="date" id="dob" required  placeholder="d/m/yr" name="dateofbirth">
+			</div>
+		</div>
+		<br>
+		<div class="i1">
+			<label class="j1" for="phno">Enter Your Mobile Number<span style="color: red;">*</span></label>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="i2">
+			<input class="j2" type="number" id="phno" required pattern="[6-9]{1}[0-9]{9}" placeholder="Mobile Number" name="mobilenumber">
+			</div>
+		</div>
+		<br>
+		<div class="i1">
+			<label class="j1" for="email">Enter Your EMail Id<span style="color: red;">*</span></label>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="i2">
+			<input class="j2" type="text" id="email" required pattern="[a-z0-9_.]+@[a-z]+.[a-z{2,}" placeholder="Email id" name="emailid">
+			</div>
+		</div>
+		<br>
+		<div class="i1">
+			<label class="j1" for="qa">Enter Your Highest Educational Qualifications</label>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="i2">
+			<input class="j2" type="text" id="qa" required pattern="[A-Z a-z]{2,15}" placeholder="Qualification" name="qualifications">
+			</div>
+		</div>
+		<div class="i1">
+			<label class="j1" for="yr">Year of Graduation</label>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="i2">
+			<input class="j2" list="yg" id="yr" required  placeholder="Select" name="yearofgraduation">
+			<datalist id="yg">
+				<option style="background-color: blue; color: white;">2024</option>
+				<option style="background-color: blue; color: white;">2023</option>
+				<option style="background-color: blue; color: white;">2022</option>
+				<option style="background-color: blue; color: white;">2021</option>
+				<option style="background-color: blue; color: white;">2020</option>
+			</datalist>
+			</div>
+		</div>
+		<br>
+		<div class="i1">
+			<label class="j1" for="collegeid">Enter Your College Id</label>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="i2">
+			<input class="j2" type="number" id="collegeid" pattern="[0-9]{9}" required placeholder="Roll No" name="collegeid">
+			</div>
+		</div>
+		
+		<div class="s1">
+		<input class="s2" type="submit">
+		</div>
+	</form>
+		
+	</div>
+		<h4 style="margin-left: 400px; font-family: 'Times New Roman', Times, serif;">Never submit passwords through Google forms</h4>
+		<marquee action="left">
+		<h6 style="margin-left: 600px; font-family: Georgia, 'Times New Roman', Times, serif; font-size: large;">
+			This content is neither created by Google Report Abuse. Term of Service-Private Policy. </h6>
+		</marquee>
+	
+
+</body>
+</html>
